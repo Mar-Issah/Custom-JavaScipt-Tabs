@@ -152,17 +152,16 @@ footer {
 /*=====================
   contents to hide 
 ======================*/
-/* first hide all the paragraph/content */
 .content {
 	display: none;
 }
 
-/* which ever tab has the active class will have this background */
+
 .tab-btn.active {
 	background: var(--white);
 }
 
-/* show only the content with the active class /default is about us*/
+
 .content.active {
 	display: block;
 }
