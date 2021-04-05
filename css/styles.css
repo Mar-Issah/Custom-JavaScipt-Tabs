@@ -1,0 +1,168 @@
+/*=====================
+ global 
+======================*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+
+:root {
+	/* ---------theme colors (varibale)---------- */
+	--bg-gray: #bdb8b1;
+	--text-curry: #cc8523;
+	--text-curry2: rgba(205, 130, 35, 0.5);
+	--offwhite: #f2f2f2;
+	--white: #fff;
+	--sky-blue: #a1c9d4;
+	--transition: all 0.5s linear;
+	--b-radius: 0.5rem;
+	--black: #000000;
+	--b-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	--ff-open-sans: "Open Sans", sans-serif;
+	--clr-bg-grey-2: hsl(210, 36%, 96%);
+}
+
+*,
+::after,
+::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	line-height: 1.5;
+	font-size: 0.875rem;
+	font-family: var(--ff-open-sans);
+	color: var(--text-curry);
+	background: var(--clr-bg-grey-2);
+}
+
+p {
+	color: var(--black);
+	margin-top: 1rem;
+}
+
+/*=====================
+ section 
+======================*/
+section {
+	padding: 5rem 0;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.title p {
+	margin-top: 1rem;
+}
+
+.section-center {
+	margin: 0 auto;
+	max-width: 1170px;
+
+	width: 90vw;
+}
+
+img {
+	display: block;
+	object-fit: cover;
+	height: 20rem;
+	width: 100%;
+	border-radius: var(--b-radius);
+}
+
+.btn-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 2rem;
+}
+
+.tab-btn:nth-child(1) {
+	border-top-left-radius: var(--b-radius);
+}
+
+.tab-btn:nth-child(3) {
+	border-top-right-radius: var(--b-radius);
+}
+
+.tab-btn {
+	padding: 1rem 0;
+	border: none;
+	font-size: 1rem;
+	display: block;
+	background: var(--bg-gray);
+	cursor: pointer;
+	text-align: center;
+}
+
+.tab-btn:hover {
+	background: var(--sky-blue);
+}
+
+.about-content {
+	border-bottom-left-radius: var(--b-radius);
+	border-bottom-right-radius: var(--b-radius);
+	padding: 2rem 1.5rem;
+	background: var(--white);
+}
+
+/*=====================
+ footer 
+======================*/
+
+footer {
+	display: block;
+	width: 100%;
+	background: var(--bg-gray);
+	text-align: center;
+	padding: 1.5rem 0.5rem;
+	color: var(--text-curry);
+	font-size: 0.95rem;
+}
+
+.linkedin {
+	color: var(--blue);
+}
+
+/*=====================
+ big screen 
+======================*/
+@media screen and (min-width: 800px) {
+	body {
+		font-size: 1rem;
+	}
+
+	h2 {
+		line-height: 1;
+		font-size: 2.5rem;
+	}
+
+	.about-center {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		column-gap: 1.75rem;
+		width: 90vw;
+	}
+
+	.btn-container {
+		margin-top: 0;
+	}
+}
+
+/*=====================
+  contents to hide 
+======================*/
+/* first hide all the paragraph/content */
+.content {
+	display: none;
+}
+
+/* which ever tab has the active class will have this background */
+.tab-btn.active {
+	background: var(--white);
+}
+
+/* show only the content with the active class /default is about us*/
+.content.active {
+	display: block;
+}
