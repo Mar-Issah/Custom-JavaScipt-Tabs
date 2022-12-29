@@ -3,7 +3,7 @@ A simple and creative tab navigation using HTML5,  CSS3 and JavaScript.
 
 ## About The Project
 
-This app basically is a single about page web app which displays diferent content as you click on the tabs
+This app basically is a single about page web app which displays diferent content as you click on the tabs.
 ![Custom JavaScipt Tabs](https://res.cloudinary.com/dytnpjxrd/image/upload/v1617638019/My%20Website%20Projects/just_about_bhduck.png)
 
 
