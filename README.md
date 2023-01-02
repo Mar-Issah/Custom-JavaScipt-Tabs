@@ -33,7 +33,7 @@ This is JavaScript Web application which runs in the browser. You need a V8 engi
    ```
 2. Download and install [Visual Studio Code](https://code.visualstudio.com/).
 3. Install live server extension.
-4. Open index.html file with live server to run the app in browser
+4. Open index.html file with live server to run the app in browser.
 
 <br>
 
