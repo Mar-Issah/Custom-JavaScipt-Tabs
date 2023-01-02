@@ -27,7 +27,7 @@ This is JavaScript Web application which runs in the browser. You need a V8 engi
 
 ### Installation
 
-1. Clone the repo on your local machine
+1. Clone the repo on your local machine.
    ```sh
    git clone https://github.com/Mar-Issah/Custom-JavaScipt-Tabs.git
    ```
