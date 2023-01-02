@@ -1,5 +1,5 @@
 # Custom JavaScipt Tabs
-A simple and creative tab navigation using HTML5,  CSS3 and JavaScript.
+A simple and creative tab navigation built using HTML5,  CSS3 and JavaScript.
 
 ## About The Project
 
